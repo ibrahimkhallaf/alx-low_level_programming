@@ -1,8 +1,8 @@
-#include "maim.h"
-/*
- * print_sign - print + if n is greater than zero
- *              0 if n = zero
- *              - if n less than zero
+#include "main.h"
+/**
+ * print_sign - checks the number value
+ * @n: contains the number
+ * Return: 0 if zero, 1 if positive, -1 if negative
  */
 int print_sign(int n)
 {
